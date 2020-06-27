@@ -1,0 +1,35 @@
+<html>
+ <head>
+ 	<style type="text/css">
+ 		*{
+ 			margin: 0;
+ 			padding: 0;
+ 		}
+ 		.container{
+ 			position: relative;
+ 			width: 75%;
+ 			height: 100vh;
+ 			background: #000;
+ 		}
+ 		.container img{
+ 			position: absolute;
+ 			top: 0;
+ 			left: 0;
+ 			width: 50%;
+ 			height: 100vh;
+ 			object-fit: cover;
+ 			
+ 		}
+ 		.container img:nth-child(2)
+ 		{
+ 			mix-blend-mode: multiply;
+ 		}	
+ 	</style>
+ </head>
+ <body>
+ 	<div class="container">
+ 		<img src="images/sai.jpg">
+ 		<img src="images/text.jpg">
+ 	</div>
+ </body>
+</html>
